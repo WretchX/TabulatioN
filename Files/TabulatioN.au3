@@ -28,7 +28,7 @@ If FileExists(@ScriptDir & BinaryToString("0x5C6D656469615C75695C646972636865636
 EndIf
 
 #Region OPTIONS
-Global $version = "1.0.0"
+Global $version = "1.0.1"
 TraySetIcon(@ScriptDir & "\media\ico\icon.ico")
 Opt("TrayMenuMode", 3) ;hide default paused and exit
 Opt("TrayAutoPause", 0)
@@ -245,6 +245,7 @@ GUICtrlSetState(-1, $GUI_HIDE)
 GUISetState(@SW_SHOW)
 #EndRegion GUI_MAIN
 ;left, top, width, height
+
 #Region GUI_SCORE
 $GUI_SCORE = GUICreate("Victory", 201, 152, -1, -1)
 $uiPic2 = GUICtrlCreatePic(@ScriptDir & "\media\UI\scorescreen.res", 0, 0, 201, 152) ;GUI BACKGROUND
@@ -463,6 +464,7 @@ While 1
 				EnableButtons()
 				PostVictory()
 				GUISetState(@SW_HIDE, $GUI_SCORE)
+				ToolTip("")
 			ElseIf WinActive("Game Over") Then
 				Cancel()
 				GUISetState(@SW_HIDE, $GUI_TIME)
