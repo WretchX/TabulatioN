@@ -30,7 +30,7 @@ Developed by GfG Design
 100% free donationware  
   
 Check out my other projects!  
-Graphics commissions: ![url](gfgdesign.myportfolio.com)  
+Graphics commissions: ![My Adobe portfolio](gfgdesign.myportfolio.com)  
   
 Special thanks to my friends who helped beta test my first game.  
 You may or may not find gratuitous nods in the release version.  
