@@ -23,7 +23,7 @@ Some things.
 - Click on the items in the inventory to use them.  
 - Green turns = all positive, Red turns = all negative  
 - There is a tray menu. Just sayin'!  
-- This program uses the Monotype font Century Gothic. If you don't have the font installed, the fonts used may look a little offset and jagged. To install the font, ~[download](https://fontshmontscom.s3.amazonaws.com/century-gothic.zip?AWSAccessKeyId=AKIAW2AGDIERC6NPDCWH&Expires=1645729263&Signature=4B7U9G5R6quwXgGlzZn%2BzI8n75s%3D) it here, and unzip it into your c:\windows\fonts directory.
+- This program uses the Monotype font Century Gothic. If you don't have the font installed, the fonts used may look a little offset and jagged. To install the font, [download](https://fontshmontscom.s3.amazonaws.com/century-gothic.zip?AWSAccessKeyId=AKIAW2AGDIERC6NPDCWH&Expires=1645729263&Signature=4B7U9G5R6quwXgGlzZn%2BzI8n75s%3D) it here, and unzip it into your c:\windows\fonts directory.
 
 ![image](https://user-images.githubusercontent.com/84418728/155447869-5698d66b-ee6c-4e1e-9f23-60c9175c446e.png)
 
