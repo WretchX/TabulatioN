@@ -8,7 +8,7 @@ Release Date: February 23, 2022
 HOW TO PLAY:  
   
 0. Download the game ![image](https://user-images.githubusercontent.com/84418728/155447490-f2f66bb5-2e61-4fbb-a13e-fafd365f012c.png)
-1. Find the folder your browser dowloaded TabulatioN to. (Usually C:\Users\<yournamehere>\downloads)
+1. Find the folder your browser dowloaded TabulatioN to. (Usually C:\Users\ <yournamehere> \downloads)
 2. Unzip TabulatioN.zip (right click, extract). Use WinZip or WinRar if you don't have an option to extract. Most people should.
 3. Open the folder that was unzipped.
 4. Double-click "Run Game.bat".
