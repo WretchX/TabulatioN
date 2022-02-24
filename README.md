@@ -11,7 +11,7 @@ A simple, open-source roguelike/math game written completely in AutoItv3
 **2.** Unzip **TabulatioN-main.zip** *(right click, extract)*. Use **WinZip** or **WinRar** if you don't have an option to extract. Most people should.  
 **3.** Open the folder that was unzipped.  
 **4.** Double-click **"Run Game.bat"**.  
-**5.** A shortcut to the game will be placed on your desktop after running **Run Game.bat** for the first time. You may then use the desktop shortcut to play the game from now on.  
+**5.** A shortcut to the game will be placed on your desktop after running **Run Game.bat** for the first time. You may then use the **desktop shortcut** to play the game from now on.  
   
 **ABOUT SCORE SHARING:**  
 You can share your game results to share your score with friends! After clicking "Share", Paste **(Ctrl+V)** anywhere. Discord, Facebook, wherever.  
