@@ -1,5 +1,6 @@
 # TabulatioN
 A simple roguelike/math game written completely in AutoItv3
+Completely open-source
 Windows only
 No install
 Release Date: February 23, 2022
