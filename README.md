@@ -33,4 +33,4 @@ Check out my other projects!
 Graphics commissions: gfgdesign.myportfolio.com
 
 Special thanks to my friends who helped beta test my first game.
-You may or may not find gratuitous nods in the release version. ;)
+You may or may not find gratuitous nods in the release version. ;) 
