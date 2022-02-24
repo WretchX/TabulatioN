@@ -4,8 +4,8 @@ Windows only
 No install
 Release Date: February 23, 2022
 
-HOW TO PLAY:
-
+HOW TO PLAY:  
+  
 0. Download the game ![image](https://user-images.githubusercontent.com/84418728/155447490-f2f66bb5-2e61-4fbb-a13e-fafd365f012c.png)
 1. Find the folder your browser dowloaded TabulatioN to. (Usually C:\Users\<yournamehere>\downloads)
 2. Unzip TabulatioN.zip (right click, extract). Use WinZip or WinRar if you don't have an option to extract. Most people should.
