@@ -22,7 +22,7 @@ You can share your game results to share your score with friends! After clicking
 - **Click** on the items in the inventory to use them.  
 - **Green** turns = all positive, **Red** turns = all negative  
 - There is a **tray menu**. Just sayin'!  
-- This program uses the Monotype font **Century Gothic**. If you don't have the font installed, the text used may look a little offset and jagged. To install the font, [download](https://fontshmontscom.s3.amazonaws.com/century-gothic.zip?AWSAccessKeyId=AKIAW2AGDIERC6NPDCWH&Expires=1645729263&Signature=4B7U9G5R6quwXgGlzZn%2BzI8n75s%3D) it here, and unzip it into your **c:\windows\fonts** directory.  
+- This program uses the Monotype font **Century Gothic**. If you don't have the font installed, the text used may look a little offset and jagged. To install the font, [download](https://freefontsdownload.net/free-century-gothic-font-32089.htm) it here, and unzip it into your **c:\windows\fonts** directory.  
   
 ![image](https://user-images.githubusercontent.com/84418728/155447869-5698d66b-ee6c-4e1e-9f23-60c9175c446e.png)  
   
@@ -30,7 +30,7 @@ Developed by GfG Design
 100% free donationware  
   
 Check out my other projects!  
-Graphics commissions: ![My Adobe portfolio](https://gfgdesign.myportfolio.com/)  
+Graphics commissions: [My Adobe Portfolio](https://gfgdesign.myportfolio.com/)  
   
 Special thanks to my friends who helped beta test my first game.  
 You may or may not find gratuitous nods in the release version.  
