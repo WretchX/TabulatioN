@@ -3,8 +3,13 @@ A simple, open-source roguelike/math game written completely in AutoItv3
 **OS:** Windows only  
 **Dependencies:** None & no install required  
 **Release Date:** February 23, 2022  
+
+**HOW TO PLAY (quick version):**
+**0.** Download
+**1.** Unzip
+**2.** Run Game.bat
   
-**HOW TO PLAY:**  
+**HOW TO PLAY (detailed version):**  
   
 **0.** Download the game ![image](https://user-images.githubusercontent.com/84418728/155447490-f2f66bb5-2e61-4fbb-a13e-fafd365f012c.png)  
 **1.** Find the folder your browser dowloaded TabulatioN to. *(Usually **C:\Users\yournamehere\downloads**)*  
