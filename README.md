@@ -18,7 +18,7 @@ A simple, open-source roguelike/math game written completely in AutoItv3
 **5.** A shortcut to the game will be placed on your desktop after running **Run Game.bat** for the first time. You may then use the **desktop shortcut** to play the game from now on.  
   
 **ABOUT SCORE SHARING:**  
-You can share your game results to share your score with friends! After clicking "Share", Paste **(Ctrl+V)** anywhere. Discord, Facebook, wherever.  
+You can share your score with friends! When you complete a game, click "Share", then paste **(Ctrl+V)** anywhere. Discord, Facebook, wherever.  
   
 **Some things:**  
 - Default volume is *50%*. The Options menu includes a **volume slider** and a **mute button**.  
