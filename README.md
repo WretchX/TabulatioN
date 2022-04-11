@@ -28,7 +28,7 @@ You can share your score with friends! When you complete a game, click "Share", 
 - There is a **tray menu**. Just sayin'!  
 - This program uses the Monotype font **Century Gothic**. If you don't have the font installed, the text used may look a little offset and jagged. To install the font, [download](https://freefontsdownload.net/free-century-gothic-font-32089.htm) it here, and unzip it into your **c:\windows\fonts** directory.  
   
-![image](https://user-images.githubusercontent.com/84418728/155447869-5698d66b-ee6c-4e1e-9f23-60c9175c446e.png)  
+![image](https://user-images.githubusercontent.com/84418728/162649966-a5e4d252-bb0a-46e5-a530-f90b89d29b39.png)
   
 Developed by GfG Design  
 100% free donationware  
