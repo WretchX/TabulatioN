@@ -22,9 +22,7 @@ You can share your score with friends! When you complete a game, click "Share", 
   
 **Some things:**  
 - Default volume is *50%*. The Options menu includes a **volume slider** and a **mute button**.  
-- There are **6** enemies.  
-- **Click** on the items in the inventory to use them.  
-- **Green** turns = all positive, **Red** turns = all negative  
+- There are **6** enemies.   
 - There is a **tray menu**. Just sayin'!  
 - This program uses the Monotype font **Century Gothic**. If you don't have the font installed, the text used may look a little offset and jagged. To install the font, [download](https://freefontsdownload.net/free-century-gothic-font-32089.htm) it here, and unzip it into your **c:\windows\fonts** directory.  
   
