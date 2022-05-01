@@ -36,7 +36,7 @@ You can share your score with friends! When you complete a game, click "Share", 
   
   
 Developed by GfG Design  
-100% free donationware  
+100% free open-source software 
   
 Check out my other projects!  
 Graphics commissions: [My Adobe Portfolio](https://gfgdesign.myportfolio.com/)  
