@@ -12,7 +12,8 @@ A simple, open-source roguelike/math game written completely in AutoItv3
     
     
 **HOW TO PLAY (detailed version):**  
-**0.** Download the game. Top right, click 1 then 2. ![image](https://user-images.githubusercontent.com/84418728/155447490-f2f66bb5-2e61-4fbb-a13e-fafd365f012c.png)  
+**0.** Download the game. Top right, click 1 then 2.  
+![image](https://user-images.githubusercontent.com/84418728/155447490-f2f66bb5-2e61-4fbb-a13e-fafd365f012c.png)  
 **1.** Find the folder your browser dowloaded TabulatioN to. *(Usually **C:\Users\yournamehere\downloads**)*  
 **2.** Unzip **TabulatioN-main.zip** *(right click, extract)*. Use **WinZip** or **WinRar** if you don't have an option to extract. Most people should.  
 **3.** Open the folder that was unzipped.  
