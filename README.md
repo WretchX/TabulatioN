@@ -41,6 +41,6 @@ Developed by GfG Design
 Check out my other projects!  
 Graphics commissions: [My Adobe Portfolio](https://gfgdesign.myportfolio.com/)  
   
-Special thanks to my friends and my yellow bird who helped beta test my first game.  
+Special thanks to my friends who helped beta test my first game.  
 You may or may not find gratuitous nods in the release version.  
 Try mousing over stuff. ;)  
