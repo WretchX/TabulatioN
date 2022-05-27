@@ -28,7 +28,7 @@ If FileExists(@ScriptDir & BinaryToString("0x5C6D656469615C75695C646972636865636
 EndIf
 
 #Region OPTIONS
-Global $version = "1.0.1"
+Global $version = "1.0.2"
 TraySetIcon(@ScriptDir & "\media\ico\icon.ico")
 Opt("TrayMenuMode", 3) ;hide default paused and exit
 Opt("TrayAutoPause", 0)
@@ -83,7 +83,7 @@ Global $nameEnemy1 = "Boodtholomew"
 Global $nameEnemy2 = "Pacific Pirate"
 Global $nameEnemy3 = "Candorless"
 Global $nameEnemy4 = "Lazarus"
-Global $nameEnemy5 = "Serafina"
+Global $nameEnemy5 = "Parice"
 Global $nameEnemy6 = "Pu Stickles"
 Global $inv_x = 398
 Global $inv_y = 301
@@ -122,6 +122,12 @@ If FileExists(@DesktopDir & "\TabulatioN.lnk") = False Or IniRead(@ScriptDir & "
 	If FileExists($parentDir & "\Run Game.bat") Then
 		FileCreateShortcut($parentDir & "\Run Game.bat", @DesktopDir & "\TabulatioN.lnk", "", "", "", @ScriptDir & "\media\ico\icon.ico")
 		MsgBox(0,"Welcome!", "Welcome to TabulatioN!" & @CRLF & @CRLF & "A game shortcut has been placed on your desktop." & @CRLF & @CRLF & "You won't see this message again. Have fun!")
+		If MsgBox(4, "Tutorial", "It looks like this is your first time running the game" & @CRLF & @CRLF & _
+			"Would you like to see a quick rundown of how the game works?")= 6 Then ;if "yes" clicked
+			TutorialMode()
+		Else
+			sleep(50)
+		EndIf
 	Else
 		MsgBox(16,"Error 9","File error. Please re-download TabulatioN.")
 		Exit 9
@@ -154,7 +160,7 @@ $picEnemy4 = GUICtrlCreatePic(@ScriptDir & "\media\bmp\enemy4.res", 38, 52, 42, 
 GUICtrlSetTip(-1, $nameEnemy4 & @CRLF & "Wildlife tycoon.")
 GUICtrlSetState(-1, $GUI_HIDE)
 $picEnemy5 = GUICtrlCreatePic(@ScriptDir & "\media\bmp\enemy5.res", 38, 52, 42, 42)
-GUICtrlSetTip(-1, $nameEnemy5 & @CRLF & "As sweet as the day is long.")
+GUICtrlSetTip(-1, $nameEnemy5 & @CRLF & "The end of paralysis.")
 GUICtrlSetState(-1, $GUI_HIDE)
 $picEnemy6 = GUICtrlCreatePic(@ScriptDir & "\media\bmp\boss.res", 38, 52, 42, 42)
 GUICtrlSetTip(-1, $nameEnemy6 & @CRLF & "Walking existential crisis.")
@@ -245,7 +251,6 @@ GUICtrlSetState(-1, $GUI_HIDE)
 GUISetState(@SW_SHOW)
 #EndRegion GUI_MAIN
 ;left, top, width, height
-
 #Region GUI_SCORE
 $GUI_SCORE = GUICreate("Victory", 201, 152, -1, -1)
 $uiPic2 = GUICtrlCreatePic(@ScriptDir & "\media\UI\scorescreen.res", 0, 0, 201, 152) ;GUI BACKGROUND
@@ -278,7 +283,7 @@ $butOptionsOkayDown = GUICtrlCreatePic(@ScriptDir & "\media\UI\butOptionsOkayDow
 GUICtrlSetState(-1, $GUI_HIDE)
 GUISetState(@SW_HIDE)
 #EndRegion GUI_OPTIONS
-
+;left, top, width, height
 #Region GUI_TIME
 $GUI_TIME = GUICreate("Game Over", 195, 146, -1, -1)
 $ui_Options = GUICtrlCreatePic(@ScriptDir & "\media\UI\time_ui.res", 0, 0, 195, 146) ;GUI BACKGROUND
@@ -291,7 +296,7 @@ $butTimeCancelDown = GUICtrlCreatePic(@ScriptDir & "\media\UI\butTimeCancelDown.
 GUICtrlSetState(-1, $GUI_HIDE)
 GUISetState(@SW_HIDE)
 #EndRegion GUI_TIME
-
+;left, top, width, height
 #Region GUI ENEMYDEFEATED
 $GUI_ENEMYDEFEATED = GUICreate("Enemy Defeated", 275, 210, -1, -1)
 $ui_enemyDefeated = GUICtrlCreatePic(@ScriptDir & "\media\UI\enemyDefeated.res", 0, 0, 275, 210) ;GUI BACKGROUND
@@ -310,7 +315,7 @@ $butNextEncounterDown = GUICtrlCreatePic(@ScriptDir & "\media\UI\butNextEncounte
 GUICtrlSetState(-1, $GUI_HIDE)
 GUISetState(@SW_HIDE)
 #EndRegion GUI ENEMYDEFEATED
-
+;left, top, width, height
 #Region YOU_DIED
 $YOU_DIED = GUICreate("Game Over", 195, 146, -1, -1)
 $ui_YouDied = GUICtrlCreatePic(@ScriptDir & "\media\UI\youdied.res", 0, 0, 195, 146) ;GUI BACKGROUND
@@ -323,7 +328,7 @@ $butYDCancelDown = GUICtrlCreatePic(@ScriptDir & "\media\UI\butTimeCancelDown.re
 GUICtrlSetState(-1, $GUI_HIDE)
 GUISetState(@SW_HIDE)
 #EndRegion YOU_DIED
-
+;left, top, width, height
 #Region POST GUI
 GUISetIcon(@ScriptDir & "\media\ico\icon.ico", "", $GUI_MAIN)
 GUISetIcon(@ScriptDir & "\media\ico\icon.ico", "", $GUI_SCORE)
@@ -861,6 +866,23 @@ Func Share()
 		ToolTip("An error has occured.", $pos[0], $pos[1])
 	EndIf
 EndFunc   ;==>Share
+
+;~ Func TutorialMode()
+;~ 	$tutLabEnemy = GUICtrlCreateLabel("-->", 5, 25, 100, 50)
+;~ 	GUICtrlSetFont(-1, 20, 800)
+;~ 	GUICtrlSetColor(-1, $COLOR_GREEN)
+;~ 	MsgBox(0,"Enemy","Enemy help")
+;~ 	GUICtrlDelete(-1)
+;~ 	$tutLabCurrentDamage = GUICtrlCreateLabel ("-->", 40, 15, 100, 50)
+;~ 	MsgBox(0,"Current Damage", "Current Damage help")
+;~ 	GUICtrlDelete(-1)
+;~ EndFunc   ;==>TutorialMode
+
+Func TutorialMode()
+	$tutLabEnemy = GUICtrlCreateLabel("asdfasdf", 20, 20, 100, 50, $SS_CENTER, $GUI_ONTOP)
+	GUICtrlSetFont(-1, 20, 800)
+	GUICtrlSetColor(-1, $COLOR_GREEN)
+EndFunc   ;==>TutorialMode
 #EndRegion MAIN FUNCTIONS
 
 #Region STYLE FUNCTIONS
